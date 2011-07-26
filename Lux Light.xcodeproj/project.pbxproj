@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FEBA7F113D8AEC200556506 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FEBA7F013D8AEC200556506 /* UIKit.framework */; };
+		5FEBA7F313D8AEC200556506 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FEBA7F213D8AEC200556506 /* Foundation.framework */; };
+		5FEBA7F513D8AEC200556506 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FEBA7F413D8AEC200556506 /* CoreGraphics.framework */; };
+		5FEBA7FB13D8AEC200556506 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5FEBA7F913D8AEC200556506 /* InfoPlist.strings */; };
+		5FEBA7FD13D8AEC200556506 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FEBA7FC13D8AEC200556506 /* main.m */; };
+		5FEBA80113D8AEC200556506 /* Lux_LightAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FEBA80013D8AEC200556506 /* Lux_LightAppDelegate.m */; };
+		5FEBA80413D8AEC200556506 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FEBA80213D8AEC200556506 /* MainStoryboard.storyboard */; };
+		5FEBA80713D8AEC200556506 /* Lux_LightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FEBA80613D8AEC200556506 /* Lux_LightViewController.m */; };
+		5FEBA81013D8AFBA00556506 /* inicio.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FEBA80E13D8AFBA00556506 /* inicio.png */; };
+		5FEBA81113D8AFBA00556506 /* libretas.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FEBA80F13D8AFBA00556506 /* libretas.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5FEBA7EC13D8AEC200556506 /* Lux Light.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lux Light.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FEBA7F013D8AEC200556506 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5FEBA7F213D8AEC200556506 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5FEBA7F413D8AEC200556506 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5FEBA7F813D8AEC200556506 /* Lux Light-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lux Light-Info.plist"; sourceTree = "<group>"; };
+		5FEBA7FA13D8AEC200556506 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5FEBA7FC13D8AEC200556506 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5FEBA7FE13D8AEC200556506 /* Lux Light-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lux Light-Prefix.pch"; sourceTree = "<group>"; };
+		5FEBA7FF13D8AEC200556506 /* Lux_LightAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lux_LightAppDelegate.h; sourceTree = "<group>"; };
+		5FEBA80013D8AEC200556506 /* Lux_LightAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lux_LightAppDelegate.m; sourceTree = "<group>"; };
+		5FEBA80313D8AEC200556506 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		5FEBA80513D8AEC200556506 /* Lux_LightViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lux_LightViewController.h; sourceTree = "<group>"; };
+		5FEBA80613D8AEC200556506 /* Lux_LightViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lux_LightViewController.m; sourceTree = "<group>"; };
+		5FEBA80E13D8AFBA00556506 /* inicio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inicio.png; sourceTree = "<group>"; };
+		5FEBA80F13D8AFBA00556506 /* libretas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = libretas.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FEBA7E913D8AEC200556506 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FEBA7F113D8AEC200556506 /* UIKit.framework in Frameworks */,
+				5FEBA7F313D8AEC200556506 /* Foundation.framework in Frameworks */,
+				5FEBA7F513D8AEC200556506 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FEBA7E113D8AEC200556506 = {
+			isa = PBXGroup;
+			children = (
+				5FEBA80D13D8AF1100556506 /* Resources */,
+				5FEBA7F613D8AEC200556506 /* Lux Light */,
+				5FEBA7EF13D8AEC200556506 /* Frameworks */,
+				5FEBA7ED13D8AEC200556506 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FEBA7ED13D8AEC200556506 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FEBA7EC13D8AEC200556506 /* Lux Light.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FEBA7EF13D8AEC200556506 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FEBA7F013D8AEC200556506 /* UIKit.framework */,
+				5FEBA7F213D8AEC200556506 /* Foundation.framework */,
+				5FEBA7F413D8AEC200556506 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5FEBA7F613D8AEC200556506 /* Lux Light */ = {
+			isa = PBXGroup;
+			children = (
+				5FEBA7FF13D8AEC200556506 /* Lux_LightAppDelegate.h */,
+				5FEBA80013D8AEC200556506 /* Lux_LightAppDelegate.m */,
+				5FEBA80213D8AEC200556506 /* MainStoryboard.storyboard */,
+				5FEBA80513D8AEC200556506 /* Lux_LightViewController.h */,
+				5FEBA80613D8AEC200556506 /* Lux_LightViewController.m */,
+				5FEBA7F713D8AEC200556506 /* Supporting Files */,
+			);
+			path = "Lux Light";
+			sourceTree = "<group>";
+		};
+		5FEBA7F713D8AEC200556506 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FEBA7F813D8AEC200556506 /* Lux Light-Info.plist */,
+				5FEBA7F913D8AEC200556506 /* InfoPlist.strings */,
+				5FEBA7FC13D8AEC200556506 /* main.m */,
+				5FEBA7FE13D8AEC200556506 /* Lux Light-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5FEBA80D13D8AF1100556506 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5FEBA80E13D8AFBA00556506 /* inicio.png */,
+				5FEBA80F13D8AFBA00556506 /* libretas.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FEBA7EB13D8AEC200556506 /* Lux Light */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FEBA80A13D8AEC200556506 /* Build configuration list for PBXNativeTarget "Lux Light" */;
+			buildPhases = (
+				5FEBA7E813D8AEC200556506 /* Sources */,
+				5FEBA7E913D8AEC200556506 /* Frameworks */,
+				5FEBA7EA13D8AEC200556506 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lux Light";
+			productName = "Lux Light";
+			productReference = 5FEBA7EC13D8AEC200556506 /* Lux Light.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FEBA7E313D8AEC200556506 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Home;
+			};
+			buildConfigurationList = 5FEBA7E613D8AEC200556506 /* Build configuration list for PBXProject "Lux Light" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5FEBA7E113D8AEC200556506;
+			productRefGroup = 5FEBA7ED13D8AEC200556506 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FEBA7EB13D8AEC200556506 /* Lux Light */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FEBA7EA13D8AEC200556506 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FEBA7FB13D8AEC200556506 /* InfoPlist.strings in Resources */,
+				5FEBA80413D8AEC200556506 /* MainStoryboard.storyboard in Resources */,
+				5FEBA81013D8AFBA00556506 /* inicio.png in Resources */,
+				5FEBA81113D8AFBA00556506 /* libretas.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FEBA7E813D8AEC200556506 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FEBA7FD13D8AEC200556506 /* main.m in Sources */,
+				5FEBA80113D8AEC200556506 /* Lux_LightAppDelegate.m in Sources */,
+				5FEBA80713D8AEC200556506 /* Lux_LightViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5FEBA7F913D8AEC200556506 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FEBA7FA13D8AEC200556506 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5FEBA80213D8AEC200556506 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FEBA80313D8AEC200556506 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FEBA80813D8AEC200556506 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5FEBA80913D8AEC200556506 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FEBA80B13D8AEC200556506 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lux Light/Lux Light-Prefix.pch";
+				INFOPLIST_FILE = "Lux Light/Lux Light-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5FEBA80C13D8AEC200556506 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lux Light/Lux Light-Prefix.pch";
+				INFOPLIST_FILE = "Lux Light/Lux Light-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FEBA7E613D8AEC200556506 /* Build configuration list for PBXProject "Lux Light" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FEBA80813D8AEC200556506 /* Debug */,
+				5FEBA80913D8AEC200556506 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FEBA80A13D8AEC200556506 /* Build configuration list for PBXNativeTarget "Lux Light" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FEBA80B13D8AEC200556506 /* Debug */,
+				5FEBA80C13D8AEC200556506 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FEBA7E313D8AEC200556506 /* Project object */;
+}
